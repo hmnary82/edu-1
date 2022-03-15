@@ -4,7 +4,7 @@ pipeline {
     environment {
         // name of the image without tag
         dockerRepo = "hmnary82/edu-1"
-        dockerCredentials = 'docker-credential'
+        dockerCredentials = 'docker_id'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
@@ -21,7 +21,7 @@ pipeline {
                  //branches: [[name: 'refs/tags/${TAG}']],
                  userRemoteConfigs: [[
                     url: 'https://github.com/hmnary82/edu-1.git',
-                    credentialsId: 'first_CI', 
+                    credentialsId: 'github_id', 
                  ]]
                 ])
             }
