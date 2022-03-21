@@ -1,4 +1,8 @@
-김동식 repository
+김동식 repository 
+
+asasasasas
+
+
 
 # < 1일차 >
  
