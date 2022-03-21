@@ -1,3 +1,5 @@
+master branch임. 수정 
+
 # < 1일차 >
  
 Jenkins 를 설치하고 CI 환경을 구성한다.
